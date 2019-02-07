@@ -9,4 +9,8 @@ Game of Drones (Rock-Paper-Scissors) with merged client and server
  Run the client with the same configuration of dev
  ### npm run server
  Run the server with the same configuration of dev
+ ### npm run client-test
+ Runs the server and run the client tests
+ ### npm run test
+ Runs the server tests
  
