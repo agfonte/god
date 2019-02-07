@@ -6,8 +6,11 @@
   "private": true,
   "scripts": {
     "server": "nodemon server.js",
+    "server-unattended": "npm start",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "nodemon --exec mocha",
+    "client-test": "concurrently \"npm run server\" \"npm run test --prefix client\""
   },
   "author": "agfonte",
   "licence": "MIT",
@@ -21,11 +24,9 @@
   },
   "devDependencies": {
     "concurrently": "4.1.0",
-    "gulp-env": "^0.4.0",
     "gulp-mocha": "^6.0.0",
-    "gulp-plumber": "^1.2.1",
     "mocha": "^5.2.0",
     "nodemon": "1.18.9",
-    "run-sequence": "^2.2.1"
+    "supertest": "^3.4.2"
   }
 }

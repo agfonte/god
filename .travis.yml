@@ -1,0 +1,13 @@
+language: node_js
+node_js: -"stable"
+addons:
+  -chorme: stable
+cache:
+  directories: -node_modules
+before_script:
+  # -start your web application and listen on "Localhost"
+  # google-chromw-stable --headless --disable-gui --remote-debugging-port-9222 http://localhost:3000
+  -npm run dev
+script:
+  - npm run dev
+after_succes: coveralls < ./coverage/lcov.info

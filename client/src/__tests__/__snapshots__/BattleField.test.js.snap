@@ -1,0 +1,1310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BattleField /> renders 1 <Game /> component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BattleField
+    back={[Function]}
+    user1=""
+    user2=""
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef(Bootstrap(Row))>
+          <ForwardRef(Bootstrap(Col))>
+            <input
+              alt="Home icon"
+              id="exit-img"
+              onClick={[Function]}
+              src="./back.png"
+              style={
+                Object {
+                  "background": "transparent",
+                  "height": "40px",
+                  "width": "40px",
+                }
+              }
+              type="image"
+            />
+          </ForwardRef(Bootstrap(Col))>
+        </ForwardRef(Bootstrap(Row))>,
+        <ForwardRef(Bootstrap(Row))
+          className="justify-content-center"
+        >
+          <h1
+            style={
+              Object {
+                "color": "white",
+                "fontSize": "4rem",
+              }
+            }
+          >
+            Round 
+            1
+          </h1>
+        </ForwardRef(Bootstrap(Row))>,
+        <ForwardRef(Bootstrap(Row))
+          className="justify-content-center"
+        >
+          <h2
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+            <ForwardRef(Bootstrap(Row))
+              className="justify-content-center"
+            >
+              <p
+                style={
+                  Object {
+                    "color": "red",
+                  }
+                }
+              >
+                
+              </p>
+            </ForwardRef(Bootstrap(Row))>
+            <ForwardRef(Bootstrap(Row))
+              className="justify-content-center"
+            >
+              <strong>
+                <i>
+                  vs
+                </i>
+              </strong>
+            </ForwardRef(Bootstrap(Row))>
+            <ForwardRef(Bootstrap(Row))
+              className="justify-content-center"
+            >
+              <p
+                style={
+                  Object {
+                    "color": "green",
+                  }
+                }
+              >
+                
+              </p>
+            </ForwardRef(Bootstrap(Row))>
+          </h2>
+        </ForwardRef(Bootstrap(Row))>,
+        <ForwardRef(Bootstrap(Row))
+          className="justify-content-center"
+        >
+          <h3
+            className="mr-2"
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+            Choose your hand
+             
+          </h3>
+          <h3
+            style={
+              Object {
+                "color": "red",
+              }
+            }
+          >
+            
+          </h3>
+        </ForwardRef(Bootstrap(Row))>,
+        <ForwardRef(Bootstrap(Row))>
+          <ChooseHand
+            moves={Array []}
+            onChoose={[Function]}
+            round={1}
+            user=""
+          />
+        </ForwardRef(Bootstrap(Row))>,
+        <ShowHandWinner
+          handleCloseModal={[Function]}
+          round={1}
+          show={false}
+        />,
+        <ShowChampion
+          homeScreen={[Function]}
+          playAgain={[Function]}
+          show={false}
+        />,
+        ";",
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <ForwardRef(Bootstrap(Col))>
+            <input
+              alt="Home icon"
+              id="exit-img"
+              onClick={[Function]}
+              src="./back.png"
+              style={
+                Object {
+                  "background": "transparent",
+                  "height": "40px",
+                  "width": "40px",
+                }
+              }
+              type="image"
+            />
+          </ForwardRef(Bootstrap(Col))>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <input
+              alt="Home icon"
+              id="exit-img"
+              onClick={[Function]}
+              src="./back.png"
+              style={
+                Object {
+                  "background": "transparent",
+                  "height": "40px",
+                  "width": "40px",
+                }
+              }
+              type="image"
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Home icon",
+              "id": "exit-img",
+              "onClick": [Function],
+              "src": "./back.png",
+              "style": Object {
+                "background": "transparent",
+                "height": "40px",
+                "width": "40px",
+              },
+              "type": "image",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "propTypes": undefined,
+            "render": [Function],
+          },
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "propTypes": undefined,
+          "render": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <h1
+            style={
+              Object {
+                "color": "white",
+                "fontSize": "4rem",
+              }
+            }
+          >
+            Round 
+            1
+          </h1>,
+          "className": "justify-content-center",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Round ",
+              1,
+            ],
+            "style": Object {
+              "color": "white",
+              "fontSize": "4rem",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            "Round ",
+            1,
+          ],
+          "type": "h1",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "propTypes": undefined,
+          "render": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <h2
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+            <ForwardRef(Bootstrap(Row))
+              className="justify-content-center"
+            >
+              <p
+                style={
+                  Object {
+                    "color": "red",
+                  }
+                }
+              >
+                
+              </p>
+            </ForwardRef(Bootstrap(Row))>
+            <ForwardRef(Bootstrap(Row))
+              className="justify-content-center"
+            >
+              <strong>
+                <i>
+                  vs
+                </i>
+              </strong>
+            </ForwardRef(Bootstrap(Row))>
+            <ForwardRef(Bootstrap(Row))
+              className="justify-content-center"
+            >
+              <p
+                style={
+                  Object {
+                    "color": "green",
+                  }
+                }
+              >
+                
+              </p>
+            </ForwardRef(Bootstrap(Row))>
+          </h2>,
+          "className": "justify-content-center",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ForwardRef(Bootstrap(Row))
+                className="justify-content-center"
+              >
+                <p
+                  style={
+                    Object {
+                      "color": "red",
+                    }
+                  }
+                >
+                  
+                </p>
+              </ForwardRef(Bootstrap(Row))>,
+              <ForwardRef(Bootstrap(Row))
+                className="justify-content-center"
+              >
+                <strong>
+                  <i>
+                    vs
+                  </i>
+                </strong>
+              </ForwardRef(Bootstrap(Row))>,
+              <ForwardRef(Bootstrap(Row))
+                className="justify-content-center"
+              >
+                <p
+                  style={
+                    Object {
+                      "color": "green",
+                    }
+                  }
+                >
+                  
+                </p>
+              </ForwardRef(Bootstrap(Row))>,
+            ],
+            "style": Object {
+              "color": "white",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <p
+                  style={
+                    Object {
+                      "color": "red",
+                    }
+                  }
+                >
+                  
+                </p>,
+                "className": "justify-content-center",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "",
+                  "style": Object {
+                    "color": "red",
+                  },
+                },
+                "ref": null,
+                "rendered": "",
+                "type": "p",
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <strong>
+                  <i>
+                    vs
+                  </i>
+                </strong>,
+                "className": "justify-content-center",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <i>
+                    vs
+                  </i>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "vs",
+                  },
+                  "ref": null,
+                  "rendered": "vs",
+                  "type": "i",
+                },
+                "type": "strong",
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <p
+                  style={
+                    Object {
+                      "color": "green",
+                    }
+                  }
+                >
+                  
+                </p>,
+                "className": "justify-content-center",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "",
+                  "style": Object {
+                    "color": "green",
+                  },
+                },
+                "ref": null,
+                "rendered": "",
+                "type": "p",
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+            },
+          ],
+          "type": "h2",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "propTypes": undefined,
+          "render": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="mr-2"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              Choose your hand
+               
+            </h3>,
+            <h3
+              style={
+                Object {
+                  "color": "red",
+                }
+              }
+            >
+              
+            </h3>,
+          ],
+          "className": "justify-content-center",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Choose your hand",
+                " ",
+              ],
+              "className": "mr-2",
+              "style": Object {
+                "color": "white",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              "Choose your hand",
+              " ",
+            ],
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+              "style": Object {
+                "color": "red",
+              },
+            },
+            "ref": null,
+            "rendered": "",
+            "type": "h3",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "propTypes": undefined,
+          "render": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <ChooseHand
+            moves={Array []}
+            onChoose={[Function]}
+            round={1}
+            user=""
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "moves": Array [],
+            "onChoose": [Function],
+            "round": 1,
+            "user": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "propTypes": undefined,
+          "render": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "handUser1": undefined,
+          "handUser2": undefined,
+          "handleCloseModal": [Function],
+          "round": 1,
+          "show": false,
+          "winner": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "homeScreen": [Function],
+          "playAgain": [Function],
+          "show": false,
+          "winner": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      ";",
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "defaultProps": undefined,
+      "propTypes": undefined,
+      "render": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef(Bootstrap(Row))>
+            <ForwardRef(Bootstrap(Col))>
+              <input
+                alt="Home icon"
+                id="exit-img"
+                onClick={[Function]}
+                src="./back.png"
+                style={
+                  Object {
+                    "background": "transparent",
+                    "height": "40px",
+                    "width": "40px",
+                  }
+                }
+                type="image"
+              />
+            </ForwardRef(Bootstrap(Col))>
+          </ForwardRef(Bootstrap(Row))>,
+          <ForwardRef(Bootstrap(Row))
+            className="justify-content-center"
+          >
+            <h1
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": "4rem",
+                }
+              }
+            >
+              Round 
+              1
+            </h1>
+          </ForwardRef(Bootstrap(Row))>,
+          <ForwardRef(Bootstrap(Row))
+            className="justify-content-center"
+          >
+            <h2
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              <ForwardRef(Bootstrap(Row))
+                className="justify-content-center"
+              >
+                <p
+                  style={
+                    Object {
+                      "color": "red",
+                    }
+                  }
+                >
+                  
+                </p>
+              </ForwardRef(Bootstrap(Row))>
+              <ForwardRef(Bootstrap(Row))
+                className="justify-content-center"
+              >
+                <strong>
+                  <i>
+                    vs
+                  </i>
+                </strong>
+              </ForwardRef(Bootstrap(Row))>
+              <ForwardRef(Bootstrap(Row))
+                className="justify-content-center"
+              >
+                <p
+                  style={
+                    Object {
+                      "color": "green",
+                    }
+                  }
+                >
+                  
+                </p>
+              </ForwardRef(Bootstrap(Row))>
+            </h2>
+          </ForwardRef(Bootstrap(Row))>,
+          <ForwardRef(Bootstrap(Row))
+            className="justify-content-center"
+          >
+            <h3
+              className="mr-2"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              Choose your hand
+               
+            </h3>
+            <h3
+              style={
+                Object {
+                  "color": "red",
+                }
+              }
+            >
+              
+            </h3>
+          </ForwardRef(Bootstrap(Row))>,
+          <ForwardRef(Bootstrap(Row))>
+            <ChooseHand
+              moves={Array []}
+              onChoose={[Function]}
+              round={1}
+              user=""
+            />
+          </ForwardRef(Bootstrap(Row))>,
+          <ShowHandWinner
+            handleCloseModal={[Function]}
+            round={1}
+            show={false}
+          />,
+          <ShowChampion
+            homeScreen={[Function]}
+            playAgain={[Function]}
+            show={false}
+          />,
+          ";",
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <ForwardRef(Bootstrap(Col))>
+              <input
+                alt="Home icon"
+                id="exit-img"
+                onClick={[Function]}
+                src="./back.png"
+                style={
+                  Object {
+                    "background": "transparent",
+                    "height": "40px",
+                    "width": "40px",
+                  }
+                }
+                type="image"
+              />
+            </ForwardRef(Bootstrap(Col))>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <input
+                alt="Home icon"
+                id="exit-img"
+                onClick={[Function]}
+                src="./back.png"
+                style={
+                  Object {
+                    "background": "transparent",
+                    "height": "40px",
+                    "width": "40px",
+                  }
+                }
+                type="image"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Home icon",
+                "id": "exit-img",
+                "onClick": [Function],
+                "src": "./back.png",
+                "style": Object {
+                  "background": "transparent",
+                  "height": "40px",
+                  "width": "40px",
+                },
+                "type": "image",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "propTypes": undefined,
+              "render": [Function],
+            },
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "propTypes": undefined,
+            "render": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <h1
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": "4rem",
+                }
+              }
+            >
+              Round 
+              1
+            </h1>,
+            "className": "justify-content-center",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Round ",
+                1,
+              ],
+              "style": Object {
+                "color": "white",
+                "fontSize": "4rem",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              "Round ",
+              1,
+            ],
+            "type": "h1",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "propTypes": undefined,
+            "render": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <h2
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              <ForwardRef(Bootstrap(Row))
+                className="justify-content-center"
+              >
+                <p
+                  style={
+                    Object {
+                      "color": "red",
+                    }
+                  }
+                >
+                  
+                </p>
+              </ForwardRef(Bootstrap(Row))>
+              <ForwardRef(Bootstrap(Row))
+                className="justify-content-center"
+              >
+                <strong>
+                  <i>
+                    vs
+                  </i>
+                </strong>
+              </ForwardRef(Bootstrap(Row))>
+              <ForwardRef(Bootstrap(Row))
+                className="justify-content-center"
+              >
+                <p
+                  style={
+                    Object {
+                      "color": "green",
+                    }
+                  }
+                >
+                  
+                </p>
+              </ForwardRef(Bootstrap(Row))>
+            </h2>,
+            "className": "justify-content-center",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <ForwardRef(Bootstrap(Row))
+                  className="justify-content-center"
+                >
+                  <p
+                    style={
+                      Object {
+                        "color": "red",
+                      }
+                    }
+                  >
+                    
+                  </p>
+                </ForwardRef(Bootstrap(Row))>,
+                <ForwardRef(Bootstrap(Row))
+                  className="justify-content-center"
+                >
+                  <strong>
+                    <i>
+                      vs
+                    </i>
+                  </strong>
+                </ForwardRef(Bootstrap(Row))>,
+                <ForwardRef(Bootstrap(Row))
+                  className="justify-content-center"
+                >
+                  <p
+                    style={
+                      Object {
+                        "color": "green",
+                      }
+                    }
+                  >
+                    
+                  </p>
+                </ForwardRef(Bootstrap(Row))>,
+              ],
+              "style": Object {
+                "color": "white",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <p
+                    style={
+                      Object {
+                        "color": "red",
+                      }
+                    }
+                  >
+                    
+                  </p>,
+                  "className": "justify-content-center",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                    "style": Object {
+                      "color": "red",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "p",
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <strong>
+                    <i>
+                      vs
+                    </i>
+                  </strong>,
+                  "className": "justify-content-center",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i>
+                      vs
+                    </i>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "vs",
+                    },
+                    "ref": null,
+                    "rendered": "vs",
+                    "type": "i",
+                  },
+                  "type": "strong",
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <p
+                    style={
+                      Object {
+                        "color": "green",
+                      }
+                    }
+                  >
+                    
+                  </p>,
+                  "className": "justify-content-center",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                    "style": Object {
+                      "color": "green",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "p",
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+              },
+            ],
+            "type": "h2",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "propTypes": undefined,
+            "render": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="mr-2"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                Choose your hand
+                 
+              </h3>,
+              <h3
+                style={
+                  Object {
+                    "color": "red",
+                  }
+                }
+              >
+                
+              </h3>,
+            ],
+            "className": "justify-content-center",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Choose your hand",
+                  " ",
+                ],
+                "className": "mr-2",
+                "style": Object {
+                  "color": "white",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                "Choose your hand",
+                " ",
+              ],
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+                "style": Object {
+                  "color": "red",
+                },
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "h3",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "propTypes": undefined,
+            "render": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <ChooseHand
+              moves={Array []}
+              onChoose={[Function]}
+              round={1}
+              user=""
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "moves": Array [],
+              "onChoose": [Function],
+              "round": 1,
+              "user": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "propTypes": undefined,
+            "render": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "handUser1": undefined,
+            "handUser2": undefined,
+            "handleCloseModal": [Function],
+            "round": 1,
+            "show": false,
+            "winner": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "homeScreen": [Function],
+            "playAgain": [Function],
+            "show": false,
+            "winner": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        ";",
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "propTypes": undefined,
+        "render": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

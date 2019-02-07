@@ -5,7 +5,7 @@ export default function ShowHandWinner(props) {
   if (props.winner === undefined) {
     headermessage = (
       <div className={"text-center"}>
-        <p>
+        <p id="test-round">
           There is no Winner of the Round {props.round}.The result was a tie.
         </p>
       </div>
@@ -25,13 +25,22 @@ export default function ShowHandWinner(props) {
     );
   }
   return (
-    <Modal centered show={props.show} onHide={props.handleCloseModal}>
+    <Modal
+      id="test-modal"
+      centered
+      show={props.show}
+      onHide={props.handleCloseModal}
+    >
       <Modal.Header>
         <Modal.Title>Round {props.round} Finished.</Modal.Title>
       </Modal.Header>
       <Modal.Body>{headermessage}</Modal.Body>
       <Modal.Footer>
-        <Button variant={"primary"} onClick={props.handleCloseModal}>
+        <Button
+          id="test-next-round-button"
+          variant={"primary"}
+          onClick={props.handleCloseModal}
+        >
           Next Round
         </Button>
       </Modal.Footer>

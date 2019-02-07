@@ -7,13 +7,13 @@ export default function ComboBox(props) {
         props.handleClickEvent(evt);
       }}
     >
-      <option>{props.default}</option>
+      <option id="test-option">{props.default}</option>
       {props.matched.map(item => {
         if (typeof item === "string") {
           return <option key={item}>{item}</option>;
         } else {
           return (
-            <option key={item}>
+            <option id={"test-" + item} key={item}>
               {item[0]}->{item[1]}
             </option>
           );

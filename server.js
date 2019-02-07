@@ -11,7 +11,7 @@ const app = express();
 // Settings
 app.set('port', process.env.PORT || 4000);
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "*", //"http://localhost:3000",
     credentials: true
 }));
 app.set('views', path.join(__dirname, "views"));
@@ -30,3 +30,5 @@ app.use("/api", routes);
 app.listen(app.get('port'), () => {
     console.log(`App listening on port ${app.get('port')}!`);
 });
+
+module.exports = app

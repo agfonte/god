@@ -8,9 +8,7 @@ const Game = require('../models/game')
 
 //  Users routes
 router.get("/users", async (req, res, next) => {
-    console.log(req.headers.name);
     let name = req.headers.name;
-    console.log(name)
     let us = await User.findOne({
         user: name
     })
@@ -45,9 +43,8 @@ router.post("/users", async (req, res) => {
                 stats,
                 games
             });
-            let v = await nuser.save();
-            console.log(v)
-            res.json({
+            await nuser.save();
+            res.send({
                 status: "OK",
                 message: "User saved"
             })
@@ -65,7 +62,6 @@ router.put("/users", async (req, res) => {
     })
     let stats = user.stats;
     let games = user.games;
-    console.log(user, user.stats)
     if (win > lose) {
         stats.win++
     } else {
@@ -76,17 +72,18 @@ router.put("/users", async (req, res) => {
         win,
         lose
     })
-    await User.updateOne({
+    User.updateOne({
         user: name
     }, {
         $set: {
             stats,
             games
         }
-    }, console.log)
-    return res.send({
-        status: "OK"
-    });
+    }, () => {
+        return res.send({
+            status: "OK"
+        });
+    })
 })
 
 router.delete("/users", async (req, res) => {
@@ -110,7 +107,7 @@ router.delete("/users", async (req, res) => {
                     });
                 } else {
                     return res.send({
-                        status: "Ok",
+                        status: "OK",
                         message: "User [" + name + "] deleted"
                     });
                 }
@@ -155,7 +152,7 @@ router.post("/moves", async (req, res) => {
             await nmove.save();
             res.send({
                 status: "OK",
-                message: "Move " + move[0] + " -> " + move[1] + "saved"
+                message: "Move " + move[0] + " -> " + move[1] + " saved"
             })
         }
     })
@@ -173,7 +170,7 @@ router.delete("/moves", (req, res) => {
         } else {
             res.send({
                 status: "OK",
-                message: "Move " + req.body.move + " deleted"
+                message: "Move " + req.body.move[0] + "->" + req.body.move[1] + " deleted"
             })
         }
     })
@@ -204,17 +201,16 @@ router.put("/settings", async (req, res) => {
     } = req.body
     let sett = await Game.find();
     top = Number(top);
-    console.log(sett[0], top);
     Game.updateOne({
 
-        }, {
-            $set: {
-                top: top
-            }
-        },
-        console.log)
+    }, {
+        $set: {
+            top: top
+        }
+    })
     return res.send({
-        status: "OK"
+        status: "OK",
+        message: "Tops player amount changed to:" + top
     });
 })
 module.exports = router;

@@ -72,7 +72,7 @@ class UserStats extends Component {
               <Row>
                 <Col>
                   <h5>Last 3 Games</h5>
-                  <ListGroup>
+                  <ListGroup id="test-list-last-battle">
                     {games
                       .reverse()
                       .slice(0, 3)

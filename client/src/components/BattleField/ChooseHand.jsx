@@ -4,13 +4,14 @@ export default function ChooseHand(props) {
   let { moves } = props;
   const chooseHand = (
     <Container>
-      <Row className={"justify-content-center text-center"}>
+      <Row id="test-array-moves" className={"justify-content-center text-center"}>
         {moves.map(mov => {
           return (
             <Col key={mov} className={"text-center"}>
               <Button
+                id={"test-move-" + { mov }}
                 onClick={evt => {
-                  this.props.onChoose(mov, props.user);
+                  props.onChoose(mov, props.user);
                 }}
               >
                 {mov.toUpperCase()}
